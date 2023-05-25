@@ -11,6 +11,7 @@ namespace Flyhigh_Airlines.Models
 
         [Key]
         public int BookingId { get; set; }
+        public int NoOfSeats { get; set; }
         public Flights? Flight { get; set; } // Navigation property to Flight
 
     }
